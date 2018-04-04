@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Tabela - "brisenomarcos"</title>
+  <link rel="stylesheet" href="./css/estilo.css">
+</head>
+<body>
+  <div class='formulario'>
+    <form>
+      <input type='button' id='btBackground' value='Background amarelo'> |
+
+      <input type='checkbox' id='chkMudarTexto'>
+      <label for='chkMudarTexto'>
+        Texto vermelho
+      </label> |
+
+      <input type='checkbox' id='chkMudarTamanho'>
+      <label for='chkMudarTamanho'>
+        Aumentar texto nas células ao passar o mouse
+      </label> |
+
+      <input type='checkbox' id='chkTituloItalico'>
+      <label for='chkTituloItalico'>
+        Colunas de título em itálico ok
+      </label> |
+
+      <input type='checkbox' id='chkInverterDiaMes'>
+      <label for='chkInverterDiaMes'>
+        Inverter dia e mês ok
+      </label> |
+
+    </form>
+  </div>
+  <table id='dadosBanda'>
+    <thead id='cabecalhoBanda'>
+      <tr>
+        <th class='nome' >Nome</th>
+        <th class='instrumento'>Instrumento</th>
+        <th class='nascimento'>Nascimento</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class='nome'>Dinho</td>
+        <td class='instrumento'>Vocal</td>
+        <td class='nascimento'>05/03/1971</td>
+      </tr>
+      <tr>
+        <td class='nome'>Júlio Rasec</td>
+        <td class='instrumento'>Tecladista</td>
+        <td class='nascimento'>04/01/1968</td>
+      </tr>
+      <tr>
+        <td class='nome'>Sérgio Reoli</td>
+        <td class='instrumento'>Baterista</td>
+        <td class='nascimento'>30/09/1969</td>
+      </tr>
+      <tr>
+        <td class='nome'>Samuel Reis</td>
+        <td class='instrumento'>Baixista</td>
+        <td class='nascimento'>11/03/1973</td>
+      </tr>
+      <tr>
+        <td class='nome'>Bento Hinoto</td>
+        <td class='instrumento'>Guitarra</td>
+        <td class='nascimento'>07/08/1970</td>
+      </tr>
+    </tbody>
+  </table>
+  <script src='./js/script.js'></script>
+</body>
+</html>
